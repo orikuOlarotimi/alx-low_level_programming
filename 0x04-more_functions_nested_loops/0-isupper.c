@@ -13,6 +13,12 @@ int _isupper(int c)
 	int start = 65, end = 90;
 
 	if (c >= start && c <= end)
+	{
 		return (1);
+	}
+	else 
+	{
+		return (0);
+	}
 	return (0);
 }
