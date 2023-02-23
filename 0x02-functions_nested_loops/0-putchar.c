@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - prints put char
+ * main - A program that print _putchar
  *
  * Return: Always 0
  */
@@ -8,8 +8,8 @@
 int main(void)
 {
 	char ins[] = "_putchar";
- 	int i = 0;
-	
+	int i = 0;
+
 	while (ins[i] != '\0')
 	{
 		_putchar(ins[i]);
@@ -18,3 +18,4 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
+
